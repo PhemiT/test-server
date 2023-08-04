@@ -1,0 +1,176 @@
+[
+    {
+        "name": "Tasty Bites",
+        "foodClasses": ["Amala", "Local Cuisine"],
+        "rating": "4.2",
+        "numberOfRatings": "120"
+    },
+    {
+        "name": "The Grill House",
+        "foodClasses": ["Burger", "Sandwich", "Smothies"],
+        "rating": "3.8",
+        "numberOfRatings": "80"
+    },
+    {
+        "name": "The Local Cravings",
+        "foodClasses": ["Ewa Agoyin", "Local Cuisine"],
+        "rating": "4.6",
+        "numberOfRatings": "150"
+    },
+    {
+        "name": "The Foodbolt",
+        "foodClasses": ["Juice", "Pastries"],
+        "rating": "4.5",
+        "numberOfRatings": "90"
+    },
+    {
+        "name": "Spicy Slices",
+        "foodClasses": ["Pizza", "Italian Cuisine"],
+        "rating": "4.7",
+        "numberOfRatings": "200"
+    },
+    {
+        "name": "Fresh Green",
+        "foodClasses": ["Salad", "Vegan"],
+        "rating": "4.1",
+        "numberOfRatings": "100"
+    },
+    {
+        "name": "Ocean Delights",
+        "foodClasses": ["Seafood", "Sushi"],
+        "rating": "4.5",
+        "numberOfRatings": "180"
+    },
+    {
+        "name": "Traditional Treats",
+        "foodClasses": ["Jollof Rice", "Local Cuisine"],
+        "rating": "4.3",
+        "numberOfRatings": "170"
+    },
+    {
+        "name": "Dessert Oasis",
+        "foodClasses": ["Ice Cream", "Dessert"],
+        "rating": "4.8",
+        "numberOfRatings": "220"
+    },
+    {
+        "name": "Savory Bakes",
+        "foodClasses": ["Bakery", "Cakes", "Pastries"],
+        "rating": "4.4",
+        "numberOfRatings": "210"
+    },
+    {
+        "name": "Asian Aromas",
+        "foodClasses": ["Thai", "Asian Cuisine"],
+        "rating": "4.2",
+        "numberOfRatings": "150"
+    },
+    {
+        "name": "Street Bites",
+        "foodClasses": ["Street Food", "Local Cuisine"],
+        "rating": "4.6",
+        "numberOfRatings": "300"
+    },
+    {
+        "name": "Mexican Marvels",
+        "foodClasses": ["Tacos", "Mexican Cuisine"],
+        "rating": "4.5",
+        "numberOfRatings": "180"
+    },
+    {
+        "name": "Cafe Cappuccino",
+        "foodClasses": ["Coffee", "Pastries"],
+        "rating": "4.3",
+        "numberOfRatings": "250"
+    },
+    {
+        "name": "Green Groove",
+        "foodClasses": ["Vegan", "Salad"],
+        "rating": "4.1",
+        "numberOfRatings": "120"
+    },
+    {
+        "name": "The Sizzle Spot",
+        "foodClasses": ["Grill", "Steak"],
+        "rating": "4.7",
+        "numberOfRatings": "220"
+    },
+    {
+        "name": "Indie India",
+        "foodClasses": ["Curry", "Indian Cuisine"],
+        "rating": "4.8",
+        "numberOfRatings": "200"
+    },
+    {
+        "name": "Le Bistro",
+        "foodClasses": ["French Cuisine", "Wine"],
+        "rating": "4.9",
+        "numberOfRatings": "240"
+    },
+    {
+        "name": "Seafood Splash",
+        "foodClasses": ["Seafood", "Sushi"],
+        "rating": "4.0",
+        "numberOfRatings": "140"
+    },
+    {
+        "name": "Gourmet Grill",
+        "foodClasses": ["Grill", "Burger"],
+        "rating": "4.5",
+        "numberOfRatings": "190"
+    },
+    {
+        "name": "Sushi Station",
+        "foodClasses": ["Sushi", "Japanese Cuisine"],
+        "rating": "4.6",
+        "numberOfRatings": "215"
+    },
+    {
+        "name": "Pasta Paradise",
+        "foodClasses": ["Pasta", "Italian Cuisine"],
+        "rating": "4.4",
+        "numberOfRatings": "230"
+    },
+    {
+        "name": "Bagel Bites",
+        "foodClasses": ["Bagel", "Coffee"],
+        "rating": "4.3",
+        "numberOfRatings": "180"
+    },
+    {
+        "name": "Orient Express",
+        "foodClasses": ["Chinese Cuisine", "Asian Cuisine"],
+        "rating": "4.7",
+        "numberOfRatings": "250"
+    },
+    {
+        "name": "Healthy Harvest",
+        "foodClasses": ["Vegan", "Organic"],
+        "rating": "4.2",
+        "numberOfRatings": "160"
+    },
+    {
+        "name": "Tex Mex",
+        "foodClasses": ["Tex-Mex", "Mexican Cuisine"],
+        "rating": "4.1",
+        "numberOfRatings": "150"
+    },
+    {
+        "name": "Pizza Planet",
+        "foodClasses": ["Pizza", "Italian Cuisine"],
+        "rating": "4.5",
+        "numberOfRatings": "220"
+    },
+    {
+        "name": "Mediterranean Mosaic",
+        "foodClasses": ["Mediterranean Cuisine", "Greek"],
+        "rating": "4.8",
+        "numberOfRatings": "210"
+    },
+    {
+        "name": "The Donut Den",
+        "foodClasses": ["Donuts", "Bakery"],
+        "rating": "4.6",
+        "numberOfRatings": "200"
+    }
+]
