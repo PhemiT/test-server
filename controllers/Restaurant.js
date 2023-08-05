@@ -19,13 +19,19 @@ const getSorting = (req, res) => {
     });    
 };
 
-const searchRestaurants = (req, res) => {
-    const query = req.query.query;
-    Restaurant.find({ $text: { $search: query } }).then(restaurants => {
-        res.json(restaurants);
-    }).catch(err => {
-        res.send(err);
-    });    
+const searchRestaurants = async (req, res) => {
+    const query = new RegExp('^' + req.query.query, 'i');
+    const allItems = await Restaurant.find({
+      $or: [
+        { name: { $regex: query } },
+        { foodClasses: { $regex: query } }
+      ]
+    });
+    if (!allItems || allItems.length === 0) {
+      res.status(200).json({err: "No item found"});
+      return;
+    }
+    res.status(200).send(allItems);    
 };
 
 const getRestaurantsByFoodClass = (req, res) => {
