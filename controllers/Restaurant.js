@@ -1,5 +1,7 @@
 const Restaurant = require("../models/Restaurant");
 
+const uniqueArray = array => [...new Set(array)];
+
 const getRestaurants = (req, res) => {
     Restaurant.find()
         .then(restaurants => {
@@ -43,9 +45,29 @@ const getRestaurantsByFoodClass = (req, res) => {
     });    
 };
 
+const getAllFoodClasses = (req, res) => {
+    Restaurant.find()
+        .then(restaurants => {
+            let allFoodClasses = [];
+
+            restaurants.forEach(restaurant => {
+                allFoodClasses = allFoodClasses.concat(restaurant.foodClasses);
+            });
+
+            allFoodClasses = uniqueArray(allFoodClasses);
+
+            res.json(allFoodClasses);
+        })
+        .catch(err => {
+            res.send(err);
+        });
+};
+
+
 module.exports = {
     getRestaurants,
     getSorting,
     searchRestaurants,
-    getRestaurantsByFoodClass
+    getRestaurantsByFoodClass,
+    getAllFoodClasses
 }
